@@ -1,8 +1,18 @@
-node_modules/
+# Secrets
 .env
 .env.*
 !.env.example
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Logs
 *.log
+
+# Temporary files
+*.tmp
+
+# System files
 .DS_Store
-coverage/
-.vscode/
+Thumbs.db
